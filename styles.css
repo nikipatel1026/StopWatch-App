@@ -1,0 +1,47 @@
+body {
+    font-family: 'Noto Sans Mono', monospace;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  button {
+    background-color: #6a7eff;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin: 15px;
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  button:hover {
+    background-color: #4f5de6;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .wrapper {
+    position: fixed;
+    top: 25%;
+    left: 35%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid #6a7eff;
+    border-radius: 1rem;
+    width: 30%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  #displayTime {
+    margin: 15px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #444;
+  }
+  
